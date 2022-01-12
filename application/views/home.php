@@ -207,8 +207,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 													<div class="mobile-back text-right"><span>Back navbar</span><i class="fa fa-angle-right pl-2" aria-hidden="true"></i></div>
 												</li>
-												<li class=" "><a class="nav-link"> Home<span class="sub-arrow"></span></a>
-													<ul class="nav-submenu">
+												<li class=" "><a href="#special"> Home</a>
+													<!-- <ul class="nav-submenu">
 														<li class="sub-menu "><a>New Demos<span class="new-tag">new</span><i class="fa fa-angle-right pl-2"></i></a>
 															<ul class="nav-sub-childmenu active">
 																<li><a class="sub-menu-title" href="/layouts/Tools">Tools</a></li>
@@ -256,10 +256,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 														<li class=""><a href="/layouts/Shoes"> Shoes</a></li>
 														<li class=""><a href="/layouts/Bags"> Bags</a></li>
 														<li class=""><a href="/layouts/Flowers"> Flowers</a></li>
-													</ul>
+													</ul> -->
 												</li>
-												<li class=" "><a class="nav-link"> Shop<span class="sub-arrow"></span></a>
-													<ul class="nav-submenu">
+												<li class=" "><a href="#special"> Shop</a>
+													<!-- <ul class="nav-submenu">
 														<li class=""><a href="/shop/left_sidebar"> Left Sidebar</a></li>
 														<li class=""><a href="/shop/right_sidebar"> Right Sidebar</a></li>
 														<li class=""><a href="/shop/no_sidebar"> No Sidebar</a></li>
@@ -269,10 +269,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 														<li class=""><a href="/shop/three_grid"> 3 Grid</a></li>
 														<li class=""><a href="/shop/six_grid"> 6 Six</a></li>
 														<li class=""><a href="/shop/list_view"> List View</a></li>
-													</ul>
+													</ul> -->
 												</li>
-												<li class=" "><a class="nav-link"> Products<span class="sub-arrow"></span></a>
-													<ul class="nav-submenu">
+												<li class=" "><a href="#special"> Products</a>
+													<!-- <ul class="nav-submenu">
 														<li class="sub-menu "><a>Sidebar<i class="fa fa-angle-right pl-2"></i></a>
 															<ul class="nav-sub-childmenu active">
 																<li><a class="sub-menu-title" href="/product-details/1">Left Sidebar</a></li>
@@ -300,10 +300,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 														<li class=""><a href="/product-details/accordian"> Accordian</a></li>
 														<li class=""><a href="/product-details/image_swatch"> Image Swatch</a></li>
 														<li class=""><a href="/product-details/vertical_tab"> Vertical Tab</a></li>
-													</ul>
+													</ul> -->
 												</li>
-												<li class=" mega-menu"><a class="nav-link"> features<span class="sub-arrow"></span></a>
-													<div class="mega-menu-container  ">
+												<li><a href="#special"> features</a>
+													<!-- <div class="mega-menu-container  ">
 														<div class="container">
 															<div class="row">
 																<div class="col mega-box ">
@@ -390,10 +390,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 																</div>
 															</div>
 														</div>
-													</div>
+													</div> -->
 												</li>
-												<li class=" "><a class="nav-link"> Pages<span class="sub-arrow"></span></a>
-													<ul class="nav-submenu">
+												<li class=" "><a href="#special"> Pages</a>
+													<!-- <ul class="nav-submenu">
 														<li class="sub-menu "><a>vendor<span class="new-tag">new</span><i class="fa fa-angle-right pl-2"></i></a>
 															<ul class="nav-sub-childmenu active">
 																<li><a class="sub-menu-title" href="/page/vendor/vendor-dashboard">Vendor Dashboard</a></li>
@@ -432,15 +432,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 														<li class=""><a href="/page/404"> 404</a></li>
 														<li class=""><a href="/page/coming-soon"> coming-soon</a></li>
 														<li class=""><a href="/page/faq"> faq</a></li>
-													</ul>
+													</ul> -->
 												</li>
-												<li class=" "><a class="nav-link"> Blogs<span class="sub-arrow"></span></a>
-													<ul class="nav-submenu">
+												<li class=" "><a href="#special"> Blogs</a>
+													<!-- <ul class="nav-submenu">
 														<li class=""><a href="/blogs/blog_left_sidebar"> blog left sidebar</a></li>
 														<li class=""><a href="/blogs/blog_right_sidebar"> blog right sidebar</a></li>
 														<li class=""><a href="/blogs/no_sidebar"> no sidebar</a></li>
 														<li class=""><a href="/blogs/blog_detail"> blog detail</a></li>
-													</ul>
+													</ul> -->
 												</li>
 											</ul>
 										</div>
@@ -612,7 +612,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	</section>
 
 	<div>
-		<section class="section-b-space p-t-0 ratio_asos">
+		<section id="special" class="section-b-space p-t-0 ratio_asos">
 			<div class="container">
 				<div class="title1 section-t-space">
 					<h4></h4>
@@ -1366,7 +1366,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="footer-title footer-mobile-title">
 							<h4>about</h4>
 						</div>
-						<div class="footer-contant" style="display: block;">
+						<div class="footer-contant mb-3" style="display: block;">
 							<div class="footer-logo"><a href="/"><img src="<?php echo base_url(); ?>assets/images/icon/logo.png" alt="" class="img-fluid"></a></div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
 							<div class="footer-social">
@@ -1378,6 +1378,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
 									<li><a href="https://rss.com" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
 								</ul>
 							</div>
+						</div>
+						<div>
+							<form>
+								<div>
+
+									<h4 class="mb-3">Contact Us</h4>
+									<input placeholder="Enter your email" type="text" class="form-control form-control mb-3">
+									<input placeholder="Subject" type="text" class="form-control form-control mb-3">
+									<textarea placeholder="Messages" rows="4" class="form-control form-control mb-3"></textarea>
+									<button type="submit" class="btn btn-solid btn btn-secondary">Contact Us</button>
+								</div>
+							</form>
 						</div>
 					</div>
 					<div class="offset-xl-1 col">
