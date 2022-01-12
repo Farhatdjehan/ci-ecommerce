@@ -5,41 +5,45 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
+	<meta charSet="utf-8" />
+	<meta name="viewport" content="width=device-width" />
 	<title>Welcome to CodeIgniter</title>
-
+	<!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/index.css" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/animate.css" crossorigin="anonymous">
-
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/landing-page.css" crossorigin="anonymous">
-
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/themify.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/slick-theme.css" crossorigin="anonymous">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/slick.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color1.css" crossorigin="anonymous">
-	<!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color2.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color3.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color4.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color5.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color6.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color7.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color8.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color9.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color10.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color11.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color12.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color13.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color14.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color15.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color16.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color17.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color18.css" crossorigin="anonymous"> -->
-
+	<link href="https://fonts.googleapis.com/css2?family=https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/css/19a7cf1bd30e5a3608be.css" as="style" />
+	<link rel="stylesheet" href="https://multikart-react.vercel.app/_next/static/css/19a7cf1bd30e5a3608be.css" data-n-g="" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/css/3a41324401c2dde98a10.css" as="style" />
+	<link rel="stylesheet" href="https://multikart-react.vercel.app/_next/static/css/3a41324401c2dde98a10.css" data-n-g="" /><noscript data-n-css="true"></noscript>
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/main-673501fd31c7575d2b4f.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/webpack-94732704547c2c67e861.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/framework.4f0f880714794e16be83.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/212534d8.b82b6318f8a1540be6e5.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/7a76ef8f69d78dbc281fde3a34a26b1bac9be9ea.223f05eaea1d42acd844.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/2485148ca233fe14f6a62da3b079bb66a4dbb79d.4b851c3c26d539e54279.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/4ea16775155c1815073d35dc920b1e1cf3a98f1c.99f1f8215d76c76a6757.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/2066dc6d5cd406cb40ecfc5bf39e5c654611a165.658d695d25ed2cf66cd8.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/3ca17a0ba42557df8694392176804e343a75fa2b.816d67f896f48c583efa.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/f196c7d81676c934bc20be3cfd5f7995192e8fba.df620f642af14b1c70b7.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/107ee01c9f1f1a19b39d6427f96c9a1d8cc404bd.34631583540cf69b872d.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/314b472fe5bf7ca3bc7932c1587b3d039c546df7.3ac2e10b33faad47994e.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/pages/_app-a8f7da90051959317371.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/52066749.7edc7731c9310e125185.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/7ea7e0c005f8cce583d5996383515cf6e0961248.8ede4b6b87a5dfe8fd17.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/c8c8a0b55d741233589048615b480e2be30501c7.c7ccc000338f31b61290.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/06c2cf4b0bb186c8dbc16b8c685b017373eca37c.5c6d6328b161df94080a.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/63d5d6dc2a1d56966e611f640d3a09f556f075ab.1388d0f8a4a0aae8df1b.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/9f30b417808d0ca8ad7b83648983cfcc97d95aad.3c4365917ddd4f6c9cb9.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/558c76060be4a77c9e943275f73b7b0120f7258e.7af2840bc96f50b6cadf.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/9375858ba27fc480e3c50f854350b759bf054d41.c4c5132e1e6fa14a0cb4.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/4bc78289d462a364c6de5b3873ba2f1981ad5aa9.801b948bb73012c72204.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/7ebe74dfbe0b512cef489cd2c9d2ca565962283d.9c8289083d326db37c01.js" as="script" />
+	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/pages/index-194763a08070598465d8.js" as="script" />
 </head>
 
-<body>
+<body onload="document.getElementById('defaultOpen').click();">
 	<div>
 		<header id="sticky" class="sticky undefined">
 			<div class="mobile-fix-option"></div>
@@ -54,17 +58,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</ul>
 							</div>
 						</div>
-						<div class="text-right col-lg-6">
-							<ul class="header-dropdown">
-								<li class="mobile-wishlist"><a href="/page/account/wishlist"><i class="fa fa-heart" aria-hidden="true"></i> wishlist</a></li>
-								<li class="onhover-dropdown mobile-account"><i class="fa fa-user" aria-hidden="true"></i> My Account<ul class="onhover-show-div">
-										<li><a href="/page/account/login">Login</a></li>
-										<li><a href="/page/account/register">Register</a></li>
-										<li><a>Logout</a></li>
-									</ul>
-								</li>
-							</ul>
-						</div>
+
 					</div>
 				</div>
 			</div>
@@ -73,11 +67,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="col">
 						<div class="main-menu">
 							<div class="menu-left">
-								<div class="navbar"><a>
+								<div class="navbar"><a onclick="openNav()">
 										<div class="bar-style"> <i class="fa fa-bars sidebar-bar" aria-hidden="true"></i></div>
 									</a>
 									<div id="mySidenav" class="sidenav"><a class="sidebar-overlay"></a>
-										<nav><a>
+										<nav><a onclick="closeNav()">
 												<div class="sidebar-back text-left"><i class="fa fa-angle-left pr-2" aria-hidden="true"></i> Back</div>
 											</a>
 											<ul id="sub-menu" class="sidebar-menu">
@@ -119,7 +113,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 																		</ul>
 																	</div>
 																</div>
-																<div class="col-xl-4"><a href="#" class="mega-menu-banner"><img src="/_next/static/images/fashion-8fe963c25349f8d9c4e28eb5947dcb20.jpg" alt="" class="img-fluid media"></a></div>
+																<div class="col-xl-4"><a href="#" class="mega-menu-banner"><img src="https://multikart-react.vercel.app/_next/static/images/fashion-8fe963c25349f8d9c4e28eb5947dcb20.jpg" alt="" class="img-fluid media"></a></div>
 															</div>
 														</li>
 													</ul>
@@ -201,15 +195,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										</nav>
 									</div>
 								</div>
-								<div class="brand-logo"><a href="/"><img src="/assets/images/icon/logo.png" alt="" class="img-fluid"></a></div>
+								<div class="brand-logo"><a href="/"><img src="<?php echo base_url(); ?>assets/images/icon/logo.png" alt="" class="img-fluid"></a></div>
 							</div>
 							<div class="menu-right pull-right">
 								<div>
 									<div class="main-navbar">
 										<div id="mainnav">
-											<div class="toggle-nav"><i class="fa fa-bars sidebar-bar"></i></div>
-											<ul class="nav-menu" style="right: 0px;">
-												<li class="back-btn">
+											<div onclick="handleOpen()" class="toggle-nav"><i class="fa fa-bars sidebar-bar"></i></div>
+											<ul class="nav-menu" id="mobileNav" style="right: 0px;">
+												<li onclick="handleClose()" class="back-btn">
+
 													<div class="mobile-back text-right"><span>Back navbar</span><i class="fa fa-angle-right pl-2" aria-hidden="true"></i></div>
 												</li>
 												<li class=" "><a class="nav-link"> Home<span class="sub-arrow"></span></a>
@@ -457,31 +452,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 											<li class="onhover-div mobile-search">
 												<div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDQjYyN0M4NTcyRTkxMUU4Qjc1MkM2QUU2ODQ1OUQ1NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDQjYyN0M4NjcyRTkxMUU4Qjc1MkM2QUU2ODQ1OUQ1NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkNCNjI3QzgzNzJFOTExRThCNzUyQzZBRTY4NDU5RDU2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkNCNjI3Qzg0NzJFOTExRThCNzUyQzZBRTY4NDU5RDU2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+WYb6uAAAAbNJREFUeNqslU0oRFEUx++bptSQxbCwflO+kiJFWEgpFhZTIhvFklJKsvOdBVIiK8ZKFIkFUZqVsLCyIU3WFkhGNOXjf+o/9RrvznvzZk79undm7vzOfad7zzNM01Q2kQ+6QDuoAAa4A2dgD7wlF8ZiMaULw0Y+DuZTvvtlgmRMgUknuS/l8znFD6AXFFMq64J8mlswAS6BX6UJqzwKWvnHUrADni2/v4J9UA3GQAMTOMplcQsfd1o5xwIYBXWhUGguXc3zMH6BR2CqzEJKVAUKUft3u533cD6iMo9hjn26soQ5P/Egj3IM6+Ryjn9AQnmLOCjXyQ2VfRg6+T1Hv0dxAR228kPO2zyImzke6OTbnC97kK9w3NLJP9knyniZ3MYgqAEzdmc8tXFdgXrevCUH8RBYBS8QF7npLU3gGiyCG9DJ1puMAOgAFxTLboO4/mtu5N9sRrOgFhzxDMcp+gDHoJGdswSsS3mQYNNtP5eQR+3mTistL4tTsAueLGtF3A8iKNGAG7nrkJcFd/4vgS8Ht1NRGJEE1hLlRG6TYENlceW1CSCWqYyBnMotCeTkJf4EGAA6kXMrGB0cpgAAAABJRU5ErkJggg==" alt="" class="img-fluid media"><i class="fa fa-search"></i></div>
 											</li>
-											<li class="onhover-div mobile-setting">
-												<div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDMENEOTc1QjcyRTkxMUU4QjcwRThEQkM4NUVBNzhFNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDMENEOTc1QzcyRTkxMUU4QjcwRThEQkM4NUVBNzhFNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkMwQ0Q5NzU5NzJFOTExRThCNzBFOERCQzg1RUE3OEU1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkMwQ0Q5NzVBNzJFOTExRThCNzBFOERCQzg1RUE3OEU1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+7VNBOgAAAv5JREFUeNqclnuITFEcx++sKazHGvEHosws1r/IeoUirRLL0P6BTYvUsnlNm1dGS0hEi1WKSSuPvItlYmVJ2rTyj5U0YrDLem2bRxHr86vf6HTde/dy6tPp/u4553vO+T3uDYTDYctH6wuXoA+0QwDaYFYqlXrd0eQsy1+bD4NgEkzWvhcs8TPZSWQCPILNhk123gjNBo/hV2ZAJBKJQSNM60ikAO7ANVgP1Wp/pycx20BoVYFDdDvgMiR5nusmMh2uwkJYC+KsmXAL9sIJm8hxqGDBWvpFkId/yulnwxlTyBSpgd062dIrCcEztVfYRMS2BdIyDoGUGOku0q0ToT93bUSXLLJaTg8tPgPC0rUtwzc96J5DgncxsQWN9+LofvAEcuGD9Y8Nge46/0ZGwMnxS/X4CYc1RsM5uAkXYKLDmCr4hkCRaZSTdFVnd9FEC+siZiuDSjgJ4uihUAcbNKoy7SFEOVGZhv13OCU+qVexNh2YhJ3GxHFwV5OwzrCPgvsS9uw8aVzZKrpC3XA3uS0RadUoane5armeJljgcj0jEcn38FNafPIWenv4Mwduu7yTk3X2EMime5+lRc8rkr7AGJd3Y+GHR3h/lVsSX7yEe5kSoUm53xgb1ys7CA2GPQ9WSiW27V4idI4+Ss587hQKhU7rkZs0fCWLf6qzLU0s2a2MGwCDoRiOSWSx2ypDoNQoQWktqrGAw/ekQQtigc0+BdZAT9kdHIArZsYjIiE+Atswe56YTXYxHGY4XHGt4tWWw1PEjiC02CnjpbQvU5Fm6z8aC3/U+fMQ2uYksh32wQvbXLGVuqxbwmKVNqEW9etGJ5GonqZQnyVB30C+Vuhym8AK2CPJiNAn6K9+mar2YieR83JMrVtxjap6zQWpqCU2Efm+b2Xn4yUA5BAIbKK/LmOxV7tV4bP6hZSCedjIgRzNJ7O9gmy9Iik5u/QLGeU54RVdln7fc222oFbekPFLNAQeGL6I6w381YI+A0fiv0gzPyMiJeOon8m/BRgAuQrmGVlzgYMAAAAASUVORK5CYII=" alt="" class="img-fluid media"><i class="fa fa-cog"></i></div>
-												<div class="show-div setting">
-													<h6>language</h6>
-													<ul>
-														<li><a>English</a></li>
-														<li><a>Franch</a></li>
-													</ul>
-													<h6>currency</h6>
-													<ul class="list-inline">
-														<li>
-															<div>$ USD</div>
-														</li>
-														<li>
-															<div>₹ IND</div>
-														</li>
-														<li>
-															<div>€ EUR</div>
-														</li>
-														<li>
-															<div>£ GBP</div>
-														</li>
-													</ul>
-												</div>
-											</li>
+
 											<li class="onhover-div mobile-cart">
 												<div class="cart-qty-cls">0</div>
 												<div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDNzE0NDdGMjcyRTkxMUU4QjY4MkE5N0U1QkVGNzJENyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDNzE0NDdGMzcyRTkxMUU4QjY4MkE5N0U1QkVGNzJENyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkM3MTQ0N0YwNzJFOTExRThCNjgyQTk3RTVCRUY3MkQ3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkM3MTQ0N0YxNzJFOTExRThCNjgyQTk3RTVCRUY3MkQ3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+hNS3IQAAAf9JREFUeNqklU1IFVEUx+fZKwldmEGJHyjvWbpxUUi0aaEouAzMQIUnSpC6UHfiVxuN2hluXKkbN4roJgRBUtyECIpYEcJDhBYRqahoIT6n34EzcJne14wHfm/ePcz8597/vedMIBQKWUkiG0agAfIgADb8ggUYiEajR4kezkgi/BxOoR0+QjPUQiPMQwschsPhpkQCgQQzb4VJGIPuJBN4D73QyQrG0xGXRBTewLCVOnpgFCp4wZdUtizCfprCFoIfuHyHpVSe34cyiFje4iXk438omfgz+AtrXpSZ/Y5ufnU8z8WzOijX/Dbc8qB/KZ7rf7FoBbqC/HyCKpiAOfit1ngNOV13xB7ogMdBFZ6BVz4ExZL/cngf4/JaxKf0XP+BIsjyIo6QOZT92lO9WRFvg114B+vww/If91R4hBUNmUUkby1Uz33ZwirkEJxITyJ/6RzFIm1KD6zrRZnqlKZqXPWwYYzlFGzCQyP3mdlG/HTFAqh0td9HkGPknkKxH/EzrTqzUM7hwsgduO5JW9xS/7yM0xbPUSucuAm3IdPI5cLdRAJB42prITkhbaHfGP+EQS0SJ/pg1VVEtqMbNPzNdK1kS3HiGN66v0Su8r9SnTP3l+irnpAXukl2HF/tOGPnHmkb07LhvLDEnLnEE1jWj3HMRwHdgG9Q4yT+CTAApdl93m9bmRMAAAAASUVORK5CYII=" alt="" class="img-fluid media"><i class="fa fa-shopping-cart"></i></div>
@@ -519,111 +490,91 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 	</div>
 	<section class="p-0">
-		<div class="slick-slider slide-1 home-slider slick-initialized" dir="ltr"><button type="button" data-role="none" class="slick-arrow slick-prev" style="display: block;"> Previous</button>
-			<div class="slick-list">
-				<div class="slick-track" style="width: 7555px; opacity: 1; transform: translate3d(-1511px, 0px, 0px);">
-					<div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 1511px;">
-						<div>
-							<div tabindex="-1" style="width: 100%; display: inline-block;">
-								<div class="home home2 text-center">
-									<div class="container">
-										<div class="row">
-											<div class="col">
-												<div class="slider-contain">
-													<div>
-														<h4>welcome to fashion</h4>
-														<h1>women fashion</h1><a class="btn btn-solid" href="/left-sidebar/collection">shop now </a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 1511px;">
-						<div>
-							<div tabindex="-1" style="width: 100%; display: inline-block;">
-								<div class="home home1 text-center">
-									<div class="container">
-										<div class="row">
-											<div class="col">
-												<div class="slider-contain">
-													<div>
-														<h4>welcome to fashion</h4>
-														<h1>men fashion</h1><a class="btn btn-solid" href="/left-sidebar/collection">shop now </a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1511px;">
-						<div>
-							<div tabindex="-1" style="width: 100%; display: inline-block;">
-								<div class="home home2 text-center">
-									<div class="container">
-										<div class="row">
-											<div class="col">
-												<div class="slider-contain">
-													<div>
-														<h4>welcome to fashion</h4>
-														<h1>women fashion</h1><a class="btn btn-solid" href="/left-sidebar/collection">shop now </a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div data-index="2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 1511px;">
-						<div>
-							<div tabindex="-1" style="width: 100%; display: inline-block;">
-								<div class="home home1 text-center">
-									<div class="container">
-										<div class="row">
-											<div class="col">
-												<div class="slider-contain">
-													<div>
-														<h4>welcome to fashion</h4>
-														<h1>men fashion</h1><a class="btn btn-solid" href="/left-sidebar/collection">shop now </a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div data-index="3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 1511px;">
-						<div>
-							<div tabindex="-1" style="width: 100%; display: inline-block;">
-								<div class="home home2 text-center">
-									<div class="container">
-										<div class="row">
-											<div class="col">
-												<div class="slider-contain">
-													<div>
-														<h4>welcome to fashion</h4>
-														<h1>women fashion</h1><a class="btn btn-solid" href="/left-sidebar/collection">shop now </a>
-													</div>
-												</div>
-											</div>
-										</div>
+		<div class="slider home-slider">
+			<div>
+
+				<div class="home home2 text-center">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="slider-contain">
+									<div>
+										<h4>welcome to fashion</h4>
+										<h1>women fashion</h1><a class="btn btn-solid" href="/left-sidebar/collection">shop now </a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div><button type="button" data-role="none" class="slick-arrow slick-next" style="display: block;"> Next</button>
+			</div>
+			<div>
+
+				<div class="home home1 text-center">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="slider-contain">
+									<div>
+										<h4>welcome to fashion</h4>
+										<h1>men fashion</h1><a class="btn btn-solid" href="/left-sidebar/collection">shop now </a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+
+				<div class="home home2 text-center">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="slider-contain">
+									<div>
+										<h4>welcome to fashion</h4>
+										<h1>women fashion</h1><a class="btn btn-solid" href="/left-sidebar/collection">shop now </a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+
+				<div class="home home1 text-center">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="slider-contain">
+									<div>
+										<h4>welcome to fashion</h4>
+										<h1>men fashion</h1><a class="btn btn-solid" href="/left-sidebar/collection">shop now </a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="home home2 text-center">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="slider-contain">
+									<div>
+										<h4>welcome to fashion</h4>
+										<h1>women fashion</h1><a class="btn btn-solid" href="/left-sidebar/collection">shop now </a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section class="pb-0">
@@ -659,45 +610,665 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			</div>
 		</div>
 	</section>
+
 	<div>
-		<div class="title1  section-t-space">
-			<h4>special offer</h4>
-			<h2 class="title-inner1">top collection</h2>
-		</div>
-		<section class="section-b-space p-t-0">
+		<section class="section-b-space p-t-0 ratio_asos">
 			<div class="container">
-				<div class="row">
-					<div class="col">
-						<!-- <Slider {...properties} class="product-4 product-m no-arrow">
-                                    { items.map((product, index ) =>
-                                        <div key={index}>
-                                            <ProductItem product={product} symbol={symbol}
-                                                         onAddToCompareClicked={() => addToCompare(product)}
-                                                         onAddToWishlistClicked={() => addToWishlist(product)}
-                                                         onAddToCartClicked={() => addToCart(product, 1)} key={index} />
-                                        </div>)
-                                    }
-                                </Slider> -->
+				<div class="title1 section-t-space">
+					<h4></h4>
+					<h2 class="title-inner1">special products</h2>
+					<div class="line"></div>
+				</div>
+				<div class="theme-tab" data-tabs="true">
+					<ul class="tabs tab-title" role="tablist">
+						<li class="tab-list active" id="defaultOpen" onclick="openCity(event, 'new_arrival')">NEW ARRIVAL</li>
+						<li class="tab-list" onclick="openCity(event, 'featured')">FEATURED </li>
+						<li class="tab-list" onclick="openCity(event, 'special')">SPECIAL</li>
+					</ul>
+					<div class="react-tabs__tab-panel react-tabs__tab-panel--selected" role="tabpanel" id="react-tabs-1" aria-labelledby="react-tabs-0">
+						<div class="row">
+							<div id="new_arrival" class="content">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-3 col-12">
+											<div class="product-box product-wrap">
+												<div class="img-wrapper">
+													<div class="lable-block"></div>
+													<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+													<div class="back"><img src="assets/images/pro3/6.jpg" alt="" class="img-fluid m-auto media"></div>
+													<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+													<ul class="product-thumb-list">
+														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
+														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/6.jpg" alt="wishlist" class="media"></a></li>
+														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/25.jpg" alt="wishlist" class="media"></a></li>
+													</ul>
+												</div>
+												<div class="product-detail undefined">
+													<div>
+														<div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+														<h6>trim dress</h6>
+														<h4>$87.00<del><span class="money">$145.00</span></del></h4>
+														<ul class="color-variant">
+															<li class="yellow" title="yellow"></li>
+															<li class="white" title="white"></li>
+															<li class="pink" title="pink"></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3 col-12">
+											<div class="product-box product-wrap">
+												<div class="img-wrapper">
+													<div class="lable-block"></div>
+													<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+													<div class="back"><img src="assets/images/pro3/4.jpg" alt="" class="img-fluid m-auto media"></div>
+													<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+													<ul class="product-thumb-list">
+														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
+														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/4.jpg" alt="wishlist" class="media"></a></li>
+														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/5.jpg" alt="wishlist" class="media"></a></li>
+														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/15.jpg" alt="wishlist" class="media"></a></li>
+													</ul>
+												</div>
+												<div class="product-detail undefined">
+													<div>
+														<div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+														<h6>belted dress</h6>
+														<h4>$111.00<del><span class="money">$185.00</span></del></h4>
+														<ul class="color-variant">
+															<li class="olive" title="olive"></li>
+															<li class="navy" title="navy"></li>
+															<li class="red" title="red"></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3 col-12">
+											<div class="product-box product-wrap">
+												<div class="img-wrapper">
+													<div class="lable-block"></div>
+													<div class="front"><img src="assets/images/pro3/1.jpg" alt="" class="img-fluid media"></div>
+													<div class="back"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid m-auto media"></div>
+													<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+													<ul class="product-thumb-list">
+														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/1.jpg" alt="wishlist" class="media"></a></li>
+														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
+													</ul>
+												</div>
+												<div class="product-detail undefined">
+													<div>
+														<div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+														<h6>fitted dress</h6>
+														<h4>$104.40<del><span class="money">$174.00</span></del></h4>
+														<ul class="color-variant">
+															<li class="white" title="white"></li>
+															<li class="black" title="black"></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+
+
+
+							</div>
+						</div>
+
+						<div id="featured" class="content">
+
+							<div class="container">
+								<div class="row">
+									<div class="col-md-3 col-12">
+										<div class="product-box product-wrap">
+											<div class="img-wrapper">
+												<div class="lable-block"></div>
+												<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+												<div class="back"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid m-auto media"></div>
+												<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+												<ul class="product-thumb-list">
+													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
+													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
+													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/15.jpg" alt="wishlist" class="media"></a></li>
+												</ul>
+											</div>
+											<div class="product-detail undefined">
+												<div>
+													<div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+													<h6>sleeveless dress</h6>
+													<h4>$261.00<del><span class="money">$290.00</span></del></h4>
+													<ul class="color-variant">
+														<li class="pink" title="pink"></li>
+														<li class="white" title="white"></li>
+														<li class="black" title="black"></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-3 col-12">
+										<div class="product-box product-wrap">
+											<div class="img-wrapper">
+												<div class="lable-block"></div>
+												<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+												<div class="back"><img src="assets/images/pro3/16.jpg" alt="" class="img-fluid m-auto media"></div>
+												<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+												<ul class="product-thumb-list">
+													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
+													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/16.jpg" alt="wishlist" class="media"></a></li>
+												</ul>
+											</div>
+											<div class="product-detail undefined">
+												<div>
+													<div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+													<h6>v-neck dress</h6>
+													<h4>$94.50<del><span class="money">$315.00</span></del></h4>
+													<ul class="color-variant">
+														<li class="yellow" title="yellow"></li>
+														<li class="black" title="black"></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="special" class="content">
+
+							<div class="container">
+								<div class="row">
+									<div class="col-md-3 col-12">
+										<div class="product-box product-wrap">
+											<div class="img-wrapper">
+												<div class="lable-block"></div>
+												<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+												<div class="back"><img src="assets/images/pro3/7.jpg" alt="" class="img-fluid m-auto media"></div>
+												<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+												<ul class="product-thumb-list">
+													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
+													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/7.jpg" alt="wishlist" class="media"></a></li>
+												</ul>
+											</div>
+											<div class="product-detail undefined">
+												<div>
+													<div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+													<h6>belted top</h6>
+													<h4>$49.00<del><span class="money">$98.00</span></del></h4>
+													<ul class="color-variant">
+														<li class="white" title="white"></li>
+														<li class="skyblue" title="skyblue"></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3 col-12">
+										<div class="product-box product-wrap">
+											<div class="img-wrapper">
+												<div class="lable-block"></div>
+												<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+												<div class="back"><img src="assets/images/pro3/10.jpg" alt="" class="img-fluid m-auto media"></div>
+												<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+												<ul class="product-thumb-list">
+													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
+													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/10.jpg" alt="wishlist" class="media"></a></li>
+												</ul>
+											</div>
+											<div class="product-detail undefined">
+												<div>
+													<div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+													<h6>waist dress</h6>
+													<h4>$184.00<del><span class="money">$230.00</span></del></h4>
+													<ul class="color-variant">
+														<li class="green" title="green"></li>
+														<li class="black" title="black"></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3 col-12">
+										<div class="product-box product-wrap">
+											<div class="img-wrapper">
+												<div class="lable-block"></div>
+												<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+												<div class="back"><img src="assets/images/pro3/12.jpg" alt="" class="img-fluid m-auto media"></div>
+												<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+												<ul class="product-thumb-list">
+													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
+													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/12.jpg" alt="wishlist" class="media"></a></li>
+													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/22.jpg" alt="wishlist" class="media"></a></li>
+												</ul>
+											</div>
+											<div class="product-detail undefined">
+												<div>
+													<div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+													<h6>crop top</h6>
+													<h4>$72.60<del><span class="money">$121.00</span></del></h4>
+													<ul class="color-variant">
+														<li class="olive" title="olive"></li>
+														<li class="gray" title="gray"></li>
+														<li class="red" title="red"></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
+
 				</div>
 			</div>
-		</section>
+			<div class="react-tabs__tab-panel" role="tabpanel" id="react-tabs-3" aria-labelledby="react-tabs-2"></div>
+			<div class="react-tabs__tab-panel" role="tabpanel" id="react-tabs-5" aria-labelledby="react-tabs-4"></div>
 	</div>
-	<section class="p-0">
-		<div class="full-banner parallax-banner1 parallax text-center p-left">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="banner-contain">
-							<h2>2018</h2>
-							<h3>fashion trends</h3>
-							<h4>special offer</h4>
+	</div>
+	</section>
+	</div>
+
+	<section class="instagram ratio_square">
+		<div class="p-0 container-fluid">
+			<div class="row">
+				<div class="pt-0 col">
+					<h2 class="title-borderless"># instagram</h2>
+					<div class="slide-7 no-arrow slick-instagram">
+						<div class=" slider slick-slider slick-initialized" dir="ltr"><button type="button" data-role="none" class="slick-arrow slick-prev" style="display: block;"> Previous</button>
+							<div class="slick-list">
+								<div class="slick-track" style="opacity: 1; transform: translate3d(-1512px, 0px, 0px); width: 4968px;">
+									<div data-index="-7" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="assets/images/insta/3.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="-6" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="assets/images/insta/5.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="assets/images/insta/7.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="assets/images/insta/9.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="assets/images/insta/11.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="assets/images/insta/13.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="assets/images/insta/2.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="https://multikart-react.vercel.app/assets/images/insta/1.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="https://multikart-react.vercel.app/assets/images/insta/3.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="https://multikart-react.vercel.app/assets/images/insta/5.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="3" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="https://multikart-react.vercel.app/assets/images/insta/7.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="4" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="https://multikart-react.vercel.app/assets/images/insta/9.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="5" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="https://multikart-react.vercel.app/assets/images/insta/11.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="6" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="https://multikart-react.vercel.app/assets/images/insta/13.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="https://multikart-react.vercel.app/assets/images/insta/2.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="8" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="https://multikart-react.vercel.app/assets/images/insta/4.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="9" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="https://multikart-react.vercel.app/assets/images/insta/3.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="https://multikart-react.vercel.app/assets/images/insta/6.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="assets/images/insta/7.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="12" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="assets/images/insta/9.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="13" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="assets/images/insta/11.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="14" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="assets/images/insta/13.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+									<div data-index="15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 216px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;"><a>
+													<div class="instagram-box"><img alt="" src="assets/images/insta/2.jpg" class="bg-img media" style="width: 100%;">
+														<div class="overlay"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+													</div>
+												</a></div>
+										</div>
+									</div>
+								</div>
+							</div><button type="button" data-role="none" class="slick-arrow slick-next" style="display: block;"> Next</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<div class="section-b-space">
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="slider slick-slider slide-6 no-arrow slick-initialized" dir="ltr"><button type="button" data-role="none" class="slick-arrow slick-prev" style="display: block;"> Previous</button>
+							<div class="slick-list">
+								<div class="slick-track" style="width: 5038px; opacity: 1; transform: translate3d(-1374px, 0px, 0px);">
+									<div data-index="-6" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/3.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/4.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/5.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/6.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/7.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/8.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/1.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/2.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/3.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="3" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/4.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="4" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/5.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="5" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/6.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/7.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/8.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="8" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/1.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="9" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/2.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/3.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/4.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="12" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/5.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="13" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/6.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="14" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="assets/images/logos/7.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+									<div data-index="15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 229px;">
+										<div>
+											<div tabindex="-1" style="width: 100%; display: inline-block;">
+												<div class="logo-block"><a><img src="<?php echo base_url(); ?>assets/images/logos/8.png" alt="" class="media"></a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><button type="button" data-role="none" class="slick-arrow slick-next" style="display: block;"> Next</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 	<div class="container">
 		<section class="border-section small-section">
 			<div class="row">
@@ -751,16 +1322,21 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			</div>
 		</section>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<div class="title1 section-t-space">
-					<h4>Recent Story</h4>
-					<h2 class="title-inner1">from the blog</h2>
+	<section class="p-0">
+		<div class="full-banner parallax-banner1 parallax text-center p-left">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="banner-contain">
+							<h2>2021</h2>
+							<h3>fashion trends</h3>
+							<h4>special offer</h4>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 	<footer class="footer-light undefined">
 		<div class="light-layout upper-footer">
 			<div class="container">
@@ -791,7 +1367,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<h4>about</h4>
 						</div>
 						<div class="footer-contant" style="display: block;">
-							<div class="footer-logo"><a href="/"><img src="/assets/images/icon/logo.png" alt="" class="img-fluid"></a></div>
+							<div class="footer-logo"><a href="/"><img src="<?php echo base_url(); ?>assets/images/icon/logo.png" alt="" class="img-fluid"></a></div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
 							<div class="footer-social">
 								<ul>
@@ -807,7 +1383,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="offset-xl-1 col">
 						<div class="sub-title">
 							<div class="footer-title">
-								<h4>my account</h4>
+								<h4>Catalogue</h4>
 							</div>
 							<div class="footer-contant" style="display: block;">
 								<ul>
@@ -822,7 +1398,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="col">
 						<div class="sub-title">
 							<div class="footer-title">
-								<h4>why we choose</h4>
+								<h4>Socials</h4>
 							</div>
 							<div class="footer-contant" style="display: block;">
 								<ul>
@@ -845,7 +1421,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 									<li><i class="fa fa-map-marker"></i>Multikart Demo Store, Demo store India 345-659</li>
 									<li><i class="fa fa-phone"></i>Call Us: 123-456-7898</li>
 									<li><i class="fa fa-envelope-o"></i>Email Us: <a href="#">Support@Fiot.com</a></li>
-									<li><i class="fa fa-fax"></i>Fax: 123456</li>
+
 								</ul>
 							</div>
 						</div>
@@ -853,29 +1429,97 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</div>
 			</div>
 		</section>
-		<div class="sub-footer undefined">
+		<!-- <div class="sub-footer undefined">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 col-md-6 col-xl-6">
+					<div class="col-sm-12 col-md-12 col-xl-12">
 						<div class="footer-end">
 							<p><i class="fa fa-copyright" aria-hidden="true"></i> 2020-21 themeforest powered by pixelstrap</p>
 						</div>
 					</div>
-					<div class="col-sm-12 col-md-6 col-xl-6">
-						<div class="payment-card-bottom">
-							<ul>
-								<li><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAGAklEQVRIia2Ve2xXZxnHP+97zu/S+43S0gJtaZFLpcWNtnR0Y5AiMFgci05ZwhYJ7g+n0WQmriaKUwOLl+m2RI1zKm5RnHOblmFHWC+6lW5gZBQcQscoG92klPZ3P5ffOY9//PorYNyUZd/kJOd9832fz3me8zx51ZLWBwEQEZRS5OeHCAY0OeEAhqGxnXSLY3ubbCe9ynG9hnTaLxURgkFzsiA/NDKvqmhw0cLy59fdXP9KWVkuFy4kKCoMs6C2BNM08DwfAPWfoIKCMDkhg7QnnYmE3ZVMpdemPR8FGIbGMBQA6bRPynKxrDRmQNO8dM7Als1Ld61f+5EDSkFxUYhgMDADMsqrO8lKa00oZJJKuT+eiliP2E66zjA0pqkxDI3W6gqvIhQ0yc8LEQwYvH56vPaFvtPbJi4lq9etaeieVV6Ca9vItP9yRoChVQDod13vBq0VSl0O/L+ktcKy0rxxZoK1q+tf3f/U9tWhcNiKRiJordFZowJ8X17yPP8Gw9DXBCFzllDIYOmSCnr7Rlq3bNszCB75+bn4vqAK5nahlELBYwI7rin6f5FSoJRiavRt7ty+5tdPPLbtbtexUJ+6+1eI77elfRm6thzeD6ZIWS4TlxL89KHbblq+bP5flYgDyGF8WfEhcTLSGttyicXt4+GQuUzZVqJRwXGlNBIMz/jEToH4BMN52R1AIZ6N0gpUcMbrWEm0VpjBnIzTs3HdNIZh4Lgenue3mI7jbUUbkI4irz9LgXMCKlaSLFtPbp5woPcEExNJmhorGRh8k623N1FSWsSe3wxx+Mgozc3VbLvjOoLBAPv+/BrRmM0nblmCYRo4lpv9lq3EotH+WCwusXhUkudflYGvd0j8AURkVMYTIhj3yue++Fv5yc8HBO6R4eOjcs+X9krlop3SvOr7smbzoyIiMnzinMAOwbxXjg2PiohILBrNPoc00IB44ENOVQs9c5/mtj3NwCm6D7wNns0DXZ2cfWuKlrWLSSRtfvZwDyuaqzn60n30dn8BgO98r5fimgrKa0s5cvR8poQyU91aDRRnpgjAZ3un4uDFW3n6SZs/7O3hpk3LmTNnFi/0nqa8LI+2loXs3HUH+54bpqn1Qd59d5Lx8Uv87tlj9P1pB52rGzjQdxrItPq0Ck0uU3Adi4YFpWxYv4AdO49ix6c4+FxmtE6eGqft+rkAfLNrI5+5fRlLFn+Drm/tp721BiIpHn/iMENH3qJ2XjHgEg6bWFY604TAVBZkWR5gcmNbFZEzg9TVzmJV+yIGh05h/essK1fM59vf7aFjwyPs/tEAxTXVhEIBvnx/Nys7FxGJe5SV5NDXc5Jjw+cxAznZ0DETGAGqsqk6jsOWzY1Mjt3Fxlub8H0Pw9B8pevTrLu5gUOHzzHw8hmiMZt9e+9iVmkuyvO5/7411NRUMDZ2kd0P9YFSOM5M142qWDS6C+jK7vi+T2FRLhAAIBqJUJAfRhkhfM9CG6Erqw2409408WiS/MIcIEDaTZFMOmitAR5WsUikCTP8GoEgyBXnFe+5VjrzPtNV7+VVgA/43koVi8cgOf535XvLJVgI4vGhSCnwXED+iRFerKKeoN8caDe7NwxKzmwI5F41AB8Y4ntgTyLzOjulqOFFU6VS+PWrD/kL7/ylHvzFZ6Wy4OoyfBBpAzU5hcyue0qK6l/ETaBikSkI5yOGQeD36/6mRg5eJ7PnT8OulZhpEhU9h1/Z8g9v9Q8alcoFN46KRaPg+0hhEThOOPDM+r+okf4WKSsHM+///2dKg+dA4h3IrTzm3fJMh1/bHlOWDyp7lWuNikYhELTSn+xr9do+/7iKjaOmzoLvTrfZ+2QhHiTGIHUBqdv0pH/9Vz+GEYwpG3AT4GQzyh7wPQgXICGNPrlvoz76w6+pd17uUI6NBAMQKgFj+s7ybXBiqHQSMfOQ0sZXZO6a3VTd+EcibyDFC5HajWDHMtGvAiHg2YAgeeVgxTFG93eo8/2bmTzZrhJjdbjxIkARyI1IuOwshfVDUrr0eSn9aL9SQOoiJMaQilak5uMzoH8DaWu8+ia13NAAAAAASUVORK5CYII=" alt="" class="media"></a></li>
-								<li><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAFjklEQVRIiaWWa4ycVRnHf+e8Zy47l52d7qXdWdputwsLtpUVWivLVkrgk2DwkghY1EBq8Erwgwnxg+FLIwlRMUGNxgYb+AJagjFySyRlu25Li9SitbSulO223e7M7Ozc573MOccPs0Nqs11t+CfvhzfPyfM77/Oc8/xfMf74fv6HtgJ3AWPAtcAqQAAFYBqYAl4G3lopiVohdjvwA+DOK8Q7gcGl+A+BA8CPgNeXWyyvkORp4I0VIMtpJ/Aa8Ov/B+QAE8C3rwJwub5Oq4zRlUAHgR0fAdLWJ2n17kNd2qNfArcACGsJVJhyLImvwghriXt1Em4VYQxCWFzCLJoUrgkjhCUp63SJCg4GgwD4BLAP+NqloG3AN4S1WCmZS68h6lbZdOZdeisLBE6ImZ61vD8wTIfvUl6MkJQenwodJxPJEVjF6eZ63g1GiDouGSdP0zoAXwV+Axxsg37e+ooQ86lexk9M8qWpF9mYnSHmu2ghKcY7mRrayjNjD3Dn6pN8l33cGJ0G2QAkjWaKP9dv5iflB5kOBtgYOt+G/QLYIsYf378J+AfA+VX9fO7wH3jspacwKkw21UvgOAgLcd0gcq7Euc2D3PpIFhHPQbUP3yqEgJBsgLNAqdHPfdknec+sZ70zh8YB2CaB+4W1zHetZvt7h/n+Sz9jMd7FTLofX4WwCIwULPpxCpsy3DCcpXRM4gVrca3AmCbaSlwdo+EPkuqYY2/3HhK2RoV4u//3S2C86TgoYfj8gd+h6y5532LyOfwLF2gWFvFm5wiy5+lccxZzTZlSzqd2fAYVcUHFsOWz2NpFcHN4iyEy9iS74q8xp3vboDEFDNeicdYeO8ToyACJ3T9lYzSG1Zr5555FaIHqXUPixuvoSEzjz19EywpyeBwx9gCqMoP+1x/BNEF72Egatuxg/G9VfvX2LKZTIjGDCujyVZjkB9P03LSOru89iq5WKU9MsmHPHiJDG/DOnEHXG8jULpy6T6hWQ23bgTn9CPrvzxK+91Vk+jpss46ZPQB9GXrUC6RkmcB2ExGmUwJCGkMQT2KTSVjI41+YI5zpp+OGEXS1SnR4GBkNY7wGxtcE2UXy+35LaPDjODd/C9G5HqJpbOEUxFZD8QRufpog3I3EfnhhizGvHsuObufff32B4AtfJB9LEcn0I5QCazGej656pEY8Oga7qB6dIeKcxBR3gXYJJh4DDObi28ihe3D0EU6VOijIPlaJ8wAVBUx3BF7m3DVDvD6hePjgBOVYGuu5WK0RCBASY8OYUR+xqYHjJUnvjBJMPoEJJBgDgI2miR55AhTsN3tJCLd9GGYU8Bewn04Xc/z+rofYWpxh7PQRpgeG0I6DsBYEaC0J3q+TDOVJfNZgkyE8dx0i2iqNRRKTJUjC0wvf4WB9M9eGZrGtcXTIWbfz3hyIb0YDj3Ksk6mR7fSV8mye/SddtRKRpk9no0pfLUc53MmPN+4m2NbN9aGjKFtESQ8lK4ScAhDiqcLDPFn+MhmVJyQ0LY/kUbHksMeAUWU0uWQ3Tcfh9hOTjJ45Tk+lQOCEONszwOTHxnhr4CaSxTJ3qze5LfYOA2qBwDqcCtbycv02ptwtDKgsceGiW+ZwCri+DbqlPdalNfgqTD7ZDUDcq9OUDrVIjLhXp7e2gGvDXFi6jHFZR1tJ1SRIyBqrncJSKUW7P3cAb7SH6iHgGeBBIyRKN1lTnMcKgREty0rXigA0cVBCs05dxCLQViIk9DnFywEAz9Ny6v8yvoeAdy5dJazFMRrHaJaTwKKExmHZ+AngvvbL5Q57K3B02axXp+MsmeiVQC4tG977ESDP0XLXykqgtnYDnwEmrwJwGLgH+AoszZ1LtNJ/3StLzzhwN61SbABStC5HCfiA1kH6E/DmSrv4D19DRIS7aeNEAAAAAElFTkSuQmCC" alt="" class="media"></a></li>
-								<li><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAADwUlEQVRIibWWW0wcVRiAvzN7gV12ubVcCoJWQTQaLChekKJW1EjbaGxMxaTRqG1MMTE+GFMS6oOJfW5SrbHBS1If8Mk00iaatDQYKaKGNdZWi0qQCqUsMLMsy+7M7u/DOIhrXEoLXzKZnHP+Od+cy8x/VMQwWIa7gK1AI1ANFAIKmAaGga+B48BApk5UBtFDQAfQstyb/E0vcAD4YiWiQ0D7FQrSOQLsWU7kAk4Bm69S4vAN8ACw4FRoaQF9qyABuBt77RZZKjoM3LcKEoc64GOn4ExdA/Zw14JmoM8Z0TtrJAF4F+wR3SYiPyqlCAT9gAvEYm4uhoiglPrXUyKgFAR8XnBrYCWZi5mL9SJCMNsDbhfxeBLTsgAa3ECbphRej4uLE9Nc+GOSqopiritdh7OE5kIMT3YWC/Mxsv3ZAIxemmEkHKWqOEhZYQA0BSjMBZPL0QTjs1HyPVCYF0Qp1eYGmnJyfFwK67Ts/4ANQR/hWILOnVsoLsjFo8EdG0s5+8som6rKmZya4dzFaV7v/Z0cJczELd5suZWSPD+WadFcU0F79yBGNEbXU/WICJqmGt1AFZqbwQtjDI9P0bnzadrfO0ZoZJyJoWG6T33Pq082cX5simcfrqfrWB8l11eiW15e23wjL382RGhcZ/K3MB/1D3NgWy1/6vM8XrOB8tIi5iIRUim5QRPIBwiNTOCyUnzSG+KNHc2sD/op8Hnxez3kZHmpLivkmY4jbKosorWpjtGJaY4OjbHvwRoKfF4CLo3KwhxODk8C8EhVEWA6S5vrdrs0BdD15SBNtTfR89Zuu2VHByUBH3hcvPhoA4dPnCExEaZz12Ns7w5xT2UBPXu2AEKw41NKfF5K8v0kRTDiFnXl+Uh8UYRbRGZj81H/wd3bqS5bj1gmppXk+P7nOT82SXVFMevyAhz6vJ+2F1rJCuTxyp3l3FwUBDNBImlx4rlGzl2OcEtRkCy3i3gyhVIwn0g6ngiGbpzWZ2fFJin67KwYui5L+fanX2Vr5/syORUWM5EQEVMkGV8Sa4pIyr6n7HZd18UwDInY14CKGMbbwL7/+9pEBIBgbi5YCYxoDE1L/0Uuy0EVMYxaIJQpSimFphTJVGqlAod7NeAHYChTlIhci+RnYMCZg71X28sVsBf+SRP9wIdrIOkGTsJ/M+x3QP0qSc4CtzuF9O1zPzC4CpIQaUk0XbSAnYa7rkFyFDu7RjKJHF4CWoGvViA4AzwB7AIkvTHTuc6hCdiGPRUbgTzsA6QOjGBvpB7gdKZO/gJX4qTG+gXfMQAAAABJRU5ErkJggg==" alt="" class="media"></a></li>
-								<li><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAEXklEQVRIia2Vy48UVRSHv3vrVlV39WseMIwOyDsM8ggqGEUMkrAwYuJWFrjwkRj8B4xx5cadC+Mj8RFjYmJYYNyIosb4HtCIYUGizoAzY8tMnAc9dHdVdVfde130NMy0MEiYX1LJvXXrnO/m1Mn5iS3Hy9xAu4FDwF5gM9ADCGAWGAF+BE4Ap5dKIpYAHQBeAA7e6Cbz+hp4Gfj8WofyOkGvAV/dBATgIeAk8Nb/ATnAt8BzNwHo1DO0yphZCvQd8OAtQNq6l9a/uyboTeD+ZYC0dRfwfidoD/DsMkLaeoL5CikAAa8DVDRoBACusCghCA0I7KJogcBikfMnBpBYbCsXBoEvLCUJGt4AdihgmxRiz0xTszMLGWGxBiIE46Fmb9EhtoByaDY1WSWJrUFqgwGslGQkxKnFWovvCC43NVo6jGmJL9gO7FbA4ammYWve4chqjw1dHho4M9VgV6/HuUrCmpxi+nKDO7oDJqoJWSUo5XwSbfjnUoTvOfQXfZSE0VrKoTUB7wzXeWUkRCmJIzisHMG+mShl/6Yi52PN0FhMV0/AnzVwA8GXFUM+tmzWhiR1+GIyZGteUk08fptt8uKObj4enmNqJmT1qgLDEyFl4VJzFCUlMK1q7xX9x/4qD+bkwEvb80xHmrmG5nJqWVvymIwMh9YX+PCPOQpJwrq+HMqV9LqCc5UEBTS0RWDR2jJcTXnqzhInLlQpFDI8f3aOvAAlmFRY2+UqyU+XUsoNQEi6rKFeSfCN4eRolShKOFVJuEfX6StlGApTaCT0F32Gxqus6MpgHAcRNvlsvE4j0QxfrGGjJjrj4ilZFNs+KtfrqQ0mGgZftLpmrgn7V7k83C0ZmY4o5D36Cj7nZyNUqukv+fiuw4XpiI19AY04wTEWFfhcnA1ZWfSJGymDBYdXLxomQx2q1FLxHRGsC5wr7VtPEw6sybEy6+Baw8CKHGORYXCgSHk6YqDoUtYOITEm66OF5O4cTFkHaTOs683yS7nG+v48q2brjFbTqqQ16jsksMZC1EBZi0xTbBgjG002FhWDJZdNvuXg6gARNYhqDaSFza6hPNfExAm9aM5XmtyWlTSMHZPAD52YQAnGqgk5V1ITivHI0FPKEsYp1lO8XU7ozSruWBGwNu9ye17xdyoYSSRru3xiBCrwmYwMp2cSejw5JLYcL+8Ezi4EOQKqiSXjOXRlHGailOlIs6HkMRsmxKkl8CSJtgSuJOc5NLVFW4vrCOpNQ3fGYaKe4hhD0ZP3tY3vV2DX1cKBtqBta/RIIZBAam1rLSA19sooWlR0IcCCxeIIgSP43cKgmj8/yoKxbgEpWoCFchfsXdleL/7m6ivRznUUrk7vIeC9/0bcso7RcupFfvQkcGYZIeeAx9ubTod9APh5GSBn6TDRTlBMy4bfvQXIB7TctboUqK2ngUeA728CcAp4DDgCHa3IvMNeR5/OP/uAR2mVYj1QYn4kAqO0GukT4JulbvEv6ofAhwGHwC0AAAAASUVORK5CYII=" alt="" class="media"></a></li>
-								<li><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAE80lEQVRIibWWa2wUVRiGn7ntzC67LYUWBAxpQUqkBm+AtrUQE4iQIpgmhGAMYPCCaIiJPxRI9I8GNdGooEAgEECNoCiIYCIaLm0pVLDWAoVSCZXaUiiku1v2MrMznz+WJVCQooH335mcc5555zvzvUeJRiL0ojFAOVACjAD6AQpwEWgG9gM7gYM320S5CehxYDEwsbc3uaw9wFLgp/8CWg68fIuAnloNvNAbSAN2A2X/E5JRLTABSGQeqD0mVN4GCMA40rW7oqtBK4Di2wDJ6EFgfWaQ+XRjSdu9ExoPVGYcfXqHIACfQdpREXDkDoIAxurALM/zME0fpuW/4SwvlULVdQCitoBPQYAsANfBcT0Mn3ndumQiTjJpo6rqLB14zDRNYrEYy1esxvT7qXiynNa2dtrazyIiTCgr4aNlK8gZks/8meUoP65EyR/F9s5+jC4sICsYYNumb9F0jcEDB9LecQ7XTTF96hRM04ebckt04B7Tsqg+UMve6oOUFo9j9osLGTliGFU1tcx5eiYnmjfScbGL0okjcTYsxPhuI9ZIg99aRnFs5jsMD7qsWrcB13GYNnUKx5ua+b2+gUAgwIyK6XRHo/kq0BegKxzmsdJiKqaVU3XgIFmhEO+//Rb1R46ybOUaFr6ygCdKx+CeOkTKB3aTwxvPP8XmHbv4YvMW3nz9NfJychhfWszxppPk9Mvh0XFjSDk2qFqWtnjRoiW6YRiaprH56y3UH23kpefm4nke0Wg3mqZRMa2cTV9t4lRnN49MrsB37jBe0cNY89bQ3nqG+wsLKJ88iZoD1eTmDeDewhEMGXwXAb9FfsEwUqbPIRqJ/B2JRMROJqSttVUi4bCIiNjJpLS0/CWO44iISOOxRqmq3i8ZnQ0npO1c15Wx57pypuW0NJ1sFhER17Glrb1DoiIS/WVdhxKNRPaKyHhVVQn4/TiOg5NK0ScYZO+ePTQ2NhKLx8nt35/s7Cw6L1zkfDjGsPyh5PUNUVlZSTKZpLCwkDlz5yKeRyIeR/WZKIZOcv9mWPHMIRWoVhQFEeFSLIbtOIgIALquEw6HudDZic80KSq6D9d18eIRsvw+wuEwiqrieh62bROLxUjE47iagWPo2LVb4YOZkDu0RolGIqOB+hv9P4ZhYFoW4a4uHMchFAphWhYAFzo7iUaj5BcU4LkuiUSCRCyGlZeHB7BrFbJmPph+GD2pJNPr6oAHroaICJqmAeDz+RARbNsm417XdTRNw3EcVEUBFFJ+CwFY/yry/ceQFYQBBU3k3D0yAyqmR1u/ZXkeBLPTSdbSgKxdAH9UwaDBYJgQyJ6Ebv18dfCtBZ69ZYAIWEHwqeCk4If3kG3vQrwbBg0H8UDVvkHVZuC51yXsYeChmwOAPqG0AwGqPkd2fggn6iC3PwT7gZMEVWtEUUfhucD1UW4B+0jn07Uy/GClGyvdEfh1C7JvHRypBMuA3KFpl04SAtkNGP4youfDqOk66z22S5CO4TV43jx0H/S53NEdDxqroX4nUrcdTjWAqcHgAlBUSDlpi2afL8kaOBs77uK5ZED/ft3StCmk7CWcrC7l+B6k+QCcroPopfRpCuWlHYibBmlGLYZ/KWZgK74AJLoh3A6a0QsoFII/65BPKsroPDMVM1BCoG8+upGNCKBEUNUWNL0GzdyBZuxGuVxEMwjJ2DWgfwC09kc21Mu6AAAAAABJRU5ErkJggg==" alt="" class="media"></a></li>
-							</ul>
-						</div>
-					</div>
+
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</footer>
+	<!-- <script id="__NEXT_DATA__" type="application/json">
+		{
+			"props": {
+				"pageProps": {
+					"apolloState": {}
+				}
+			},
+			"page": "/",
+			"query": {},
+			"buildId": "5r8Y0QIRftY179HaA2Di4",
+			"runtimeConfig": {},
+			"nextExport": false,
+			"isFallback": false,
+			"gip": true,
+			"head": [
+				["meta", {
+					"charSet": "utf-8"
+				}],
+				["meta", {
+					"name": "viewport",
+					"content": "width=device-width"
+				}]
+			]
+		}
+	</script> -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script nomodule="" src="https://multikart-react.vercel.app/_next/static/chunks/polyfills-e38e4d741cb5c5eaf613.js"></script>
+
+	<script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
+	<script>
+		// 	function openTab(evt, tabName) {
+		//     var i, tabcontent, tablinks;
+		//     tabcontent = document.getElementsByClassName("tabcontent");
+		//     for (i = 0; i < tabcontent.length; i++) {
+		//       tabcontent[i].style.display = "none";
+		//     }
+		//     tablinks = document.getElementsByClassName("tablinks");
+		//     for (i = 0; i < tablinks.length; i++) {
+		//       tablinks[i].className = tablinks[i].className.replace(" active", "");
+		//     }
+		//     document.getElementById(tabName).style.display = "block";
+		//     evt.currentTarget.className += " active";
+		//   }
+
+
+		function openCity(evt, cityName) {
+			var i, tabcontent, tablinks;
+			tabcontent = document.getElementsByClassName("content");
+
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+			tablinks = document.getElementsByClassName("tab-list");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+			document.getElementById(cityName).style.display = "block";
+			evt.currentTarget.className += " active";
+		}
+		document.getElementById("defaultOpen").click();
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.left = "-300px";
+		}
+
+		function openNav() {
+			document.getElementById("mySidenav").style.left = "0";
+		}
+
+		function handleClose() {
+			document.getElementById("mobileNav").style.right = "-300px";
+		}
+
+		function handleOpen() {
+			document.getElementById("mobileNav").style.right = "0px";
+		}
+	</script>
 </body>
 
 </html>
