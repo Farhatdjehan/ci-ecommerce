@@ -18,30 +18,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<link rel="stylesheet" href="https://multikart-react.vercel.app/_next/static/css/19a7cf1bd30e5a3608be.css" data-n-g="" />
 	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/css/3a41324401c2dde98a10.css" as="style" />
 	<link rel="stylesheet" href="https://multikart-react.vercel.app/_next/static/css/3a41324401c2dde98a10.css" data-n-g="" /><noscript data-n-css="true"></noscript>
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/main-673501fd31c7575d2b4f.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/webpack-94732704547c2c67e861.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/framework.4f0f880714794e16be83.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/212534d8.b82b6318f8a1540be6e5.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/7a76ef8f69d78dbc281fde3a34a26b1bac9be9ea.223f05eaea1d42acd844.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/2485148ca233fe14f6a62da3b079bb66a4dbb79d.4b851c3c26d539e54279.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/4ea16775155c1815073d35dc920b1e1cf3a98f1c.99f1f8215d76c76a6757.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/2066dc6d5cd406cb40ecfc5bf39e5c654611a165.658d695d25ed2cf66cd8.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/3ca17a0ba42557df8694392176804e343a75fa2b.816d67f896f48c583efa.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/f196c7d81676c934bc20be3cfd5f7995192e8fba.df620f642af14b1c70b7.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/107ee01c9f1f1a19b39d6427f96c9a1d8cc404bd.34631583540cf69b872d.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/314b472fe5bf7ca3bc7932c1587b3d039c546df7.3ac2e10b33faad47994e.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/pages/_app-a8f7da90051959317371.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/52066749.7edc7731c9310e125185.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/7ea7e0c005f8cce583d5996383515cf6e0961248.8ede4b6b87a5dfe8fd17.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/c8c8a0b55d741233589048615b480e2be30501c7.c7ccc000338f31b61290.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/06c2cf4b0bb186c8dbc16b8c685b017373eca37c.5c6d6328b161df94080a.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/63d5d6dc2a1d56966e611f640d3a09f556f075ab.1388d0f8a4a0aae8df1b.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/9f30b417808d0ca8ad7b83648983cfcc97d95aad.3c4365917ddd4f6c9cb9.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/558c76060be4a77c9e943275f73b7b0120f7258e.7af2840bc96f50b6cadf.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/9375858ba27fc480e3c50f854350b759bf054d41.c4c5132e1e6fa14a0cb4.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/4bc78289d462a364c6de5b3873ba2f1981ad5aa9.801b948bb73012c72204.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/7ebe74dfbe0b512cef489cd2c9d2ca565962283d.9c8289083d326db37c01.js" as="script" />
-	<link rel="preload" href="https://multikart-react.vercel.app/_next/static/chunks/pages/index-194763a08070598465d8.js" as="script" />
 </head>
 
 <body onload="document.getElementById('defaultOpen').click();">
@@ -1425,31 +1401,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			</div>
 		</div> -->
 	</footer>
-	<!-- <script id="__NEXT_DATA__" type="application/json">
-		{
-			"props": {
-				"pageProps": {
-					"apolloState": {}
-				}
-			},
-			"page": "/",
-			"query": {},
-			"buildId": "5r8Y0QIRftY179HaA2Di4",
-			"runtimeConfig": {},
-			"nextExport": false,
-			"isFallback": false,
-			"gip": true,
-			"head": [
-				["meta", {
-					"charSet": "utf-8"
-				}],
-				["meta", {
-					"name": "viewport",
-					"content": "width=device-width"
-				}]
-			]
-		}
-	</script> -->
 	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-lg modal-dialog-centered">
 			<div class="modal-content">
@@ -1496,22 +1447,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<script nomodule="" src="https://multikart-react.vercel.app/_next/static/chunks/polyfills-e38e4d741cb5c5eaf613.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
+	<script src="<?php echo base_url(); ?>assets/js/bundle.min.js"></script>
 	<script>
-		// 	function openTab(evt, tabName) {
-		//     var i, tabcontent, tablinks;
-		//     tabcontent = document.getElementsByClassName("tabcontent");
-		//     for (i = 0; i < tabcontent.length; i++) {
-		//       tabcontent[i].style.display = "none";
-		//     }
-		//     tablinks = document.getElementsByClassName("tablinks");
-		//     for (i = 0; i < tablinks.length; i++) {
-		//       tablinks[i].className = tablinks[i].className.replace(" active", "");
-		//     }
-		//     document.getElementById(tabName).style.display = "block";
-		//     evt.currentTarget.className += " active";
-		//   }
-
-
 		function openCity(evt, cityName) {
 			var i, tabcontent, tablinks;
 			tabcontent = document.getElementsByClassName("content");
