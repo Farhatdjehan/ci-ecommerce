@@ -5,3 +5,18 @@
 .active {
 	color: #ff4c3b;
 }
+@media (max-width: 577px) {
+	.main-menu .menu-right .icon-nav .mobile-cart {
+		right: 15% !important;
+	}
+}
+
+@media (max-width: 577px) {
+	.main-menu .menu-right .icon-nav .mobile-cart .show-div.shopping-cart,
+	.main-menu .menu-right .icon-nav .mobile-search .show-div.shopping-cart,
+	.main-menu .menu-right .icon-nav .mobile-setting .show-div.shopping-cart {
+		top: unset;
+		bottom: 42px;
+		left: -245px !important;
+	}
+}

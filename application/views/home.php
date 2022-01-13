@@ -67,7 +67,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="col">
 						<div class="main-menu">
 							<div class="menu-left">
-								<div class="navbar"><a onclick="openNav()">
+								<!-- <div class="navbar"><a onclick="openNav()">
 										<div class="bar-style"> <i class="fa fa-bars sidebar-bar" aria-hidden="true"></i></div>
 									</a>
 									<div id="mySidenav" class="sidenav"><a class="sidebar-overlay"></a>
@@ -194,7 +194,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 											</ul>
 										</nav>
 									</div>
-								</div>
+								</div>-->
 								<div class="brand-logo"><a href="/"><img src="<?php echo base_url(); ?>assets/images/icon/logo.png" alt="" class="img-fluid"></a></div>
 							</div>
 							<div class="menu-right pull-right">
@@ -208,68 +208,96 @@ defined('BASEPATH') or exit('No direct script access allowed');
 													<div class="mobile-back text-right"><span>Back navbar</span><i class="fa fa-angle-right pl-2" aria-hidden="true"></i></div>
 												</li>
 												<li class=" "><a href="#special"> Home</a>
-													<!-- <ul class="nav-submenu">
-														<li class="sub-menu "><a>New Demos<span class="new-tag">new</span><i class="fa fa-angle-right pl-2"></i></a>
-															<ul class="nav-sub-childmenu active">
-																<li><a class="sub-menu-title" href="/layouts/Tools">Tools</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Christmas">Christmas</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Marketplace">Marketplace</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Game">Game</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Gym">Gym</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Marijuana">Marijuana</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Leftsidebar">Left-Sidebar</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Jewellery">Jewellery</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Pets">Pets</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Metros">Metros</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Vedioslider">Video-Slider</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Nursery">Nursery</a></li>
-															</ul>
-														</li>
-														<li class="sub-menu "><a>Clothing<i class="fa fa-angle-right pl-2"></i></a>
-															<ul class="nav-sub-childmenu active">
-																<li><a class="sub-menu-title" href="/">Fashion1</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Fashion2">Fashion2</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Fashion3">Fashion3</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Kids">Kids</a></li>
-															</ul>
-														</li>
-														<li class="sub-menu "><a>Basics<i class="fa fa-angle-right pl-2"></i></a>
-															<ul class="nav-sub-childmenu active">
-																<li><a class="sub-menu-title" href="/layouts/Basics/Lookbook">Lookbook</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Basics/Video">Video</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Basics/Parallax">Parallax</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Basics/Fullpage">Full Page</a></li>
-															</ul>
-														</li>
-														<li class=""><a href="/layouts/Beauty"> Beauty</a></li>
-														<li class="sub-menu "><a>electronic<i class="fa fa-angle-right pl-2"></i></a>
-															<ul class="nav-sub-childmenu active">
-																<li><a class="sub-menu-title" href="/layouts/Electronic/Electronic-1">Electronic-1</a></li>
-																<li><a class="sub-menu-title" href="/layouts/Electronic/Electronic-2">Electronic-2</a></li>
-															</ul>
-														</li>
-														<li class=""><a href="/layouts/Furniture"> Furniture</a></li>
-														<li class=""><a href="/layouts/Vegetables"> Vegetables</a></li>
-														<li class=""><a href="/layouts/Watch"> Watch</a></li>
-														<li class=""><a href="/layouts/Lights"> Lights</a></li>
-														<li class=""><a href="/layouts/Goggles"> Goggles</a></li>
-														<li class=""><a href="/layouts/Shoes"> Shoes</a></li>
-														<li class=""><a href="/layouts/Bags"> Bags</a></li>
-														<li class=""><a href="/layouts/Flowers"> Flowers</a></li>
-													</ul> -->
 												</li>
-												<li class=" "><a href="#special"> Shop</a>
-													<!-- <ul class="nav-submenu">
-														<li class=""><a href="/shop/left_sidebar"> Left Sidebar</a></li>
-														<li class=""><a href="/shop/right_sidebar"> Right Sidebar</a></li>
-														<li class=""><a href="/shop/no_sidebar"> No Sidebar</a></li>
-														<li class=""><a href="/shop/sidebar_popup"> Sidebar Popup</a></li>
-														<li class=""><a href="/shop/metro"> Metro<span class="new-tag">new</span></a></li>
-														<li class=""><a href="/shop/full_width"> Full Width<span class="new-tag">new</span></a></li>
-														<li class=""><a href="/shop/three_grid"> 3 Grid</a></li>
-														<li class=""><a href="/shop/six_grid"> 6 Six</a></li>
-														<li class=""><a href="/shop/list_view"> List View</a></li>
-													</ul> -->
+												<li class="mega-menu "><a href="#special"> Kategori<span class="sub-arrow"></span></a>
+													<div class="mega-menu-container  ">
+														<div class="container">
+															<div class="row">
+																<div class="col mega-box ">
+																	<div class="link-section">
+																		<div class="menu-title">
+																			<h5>Clothing</h5>
+																		</div>
+																		<div class="menu-content">
+																			<ul>
+																				<li><a href="/portfolio/grid-2">Portfolio Grid 2</a></li>
+																				<li><a href="/portfolio/grid-3">Portfolio Grid 3</a></li>
+																				<li><a href="/portfolio/grid-4">Portfolio Grid 4</a></li>
+																				<li><a href="/portfolio/masonry-grid-2">masonry Grid 2</a></li>
+																				<li><a href="/portfolio/masonry-grid-3">masonry Grid 3</a></li>
+																				<li><a href="/portfolio/masonry-grid-4">masonry Grid 4</a></li>
+																				<li><a href="/portfolio/masonry-full-width">masonry Full Width</a></li>
+																			</ul>
+																		</div>
+																	</div>
+																</div>
+																<div class="col mega-box ">
+																	<div class="link-section">
+																		<div class="menu-title">
+																			<h5>Bags</h5>
+																		</div>
+																		<div class="menu-content">
+																			<ul>
+																				<li><a href="/layouts/Nursery">Cart Modal Popup</a></li>
+																				<li><a href="/layouts/Vegetables">Qty Counter</a></li>
+																				<li><a href="/layouts/Bags">Cart Top</a></li>
+																				<li><a href="/layouts/Shoes">Cart Bottom</a></li>
+																				<li><a href="/layouts/Watch">Cart Left</a></li>
+																				<li><a href="/layouts/Tools">Cart Right</a></li>
+																			</ul>
+																		</div>
+																	</div>
+																</div>
+																<div class="col mega-box ">
+																	<div class="link-section">
+																		<div class="menu-title">
+																			<h5>Footwear</h5>
+																		</div>
+																		<div class="menu-content">
+																			<ul>
+																				<li><a href="/portfolio/title">Title</a></li>
+																				<li><a href="/portfolio/collection-banner">Collection Banner</a></li>
+																				<li><a href="/portfolio/home-slider">Home Slider</a></li>
+																				<li><a href="/portfolio/category">Category</a></li>
+																				<li><a href="/portfolio/service">Service</a></li>
+																			</ul>
+																		</div>
+																	</div>
+																</div>
+																<div class="col mega-box ">
+																	<div class="link-section">
+																		<div class="menu-title">
+																			<h5>Watches</h5>
+																		</div>
+																		<div class="menu-content">
+																			<ul>
+																				<li><a href="/portfolio/product-box">Product Box</a></li>
+																				<li><a href="/portfolio/product-slider">Product Slider</a></li>
+																				<li><a href="/portfolio/no-slider">No Slider</a></li>
+																				<li><a href="/portfolio/multi-slider">Multi Slider</a></li>
+																				<li><a href="/portfolio/tab">Tab</a></li>
+																			</ul>
+																		</div>
+																	</div>
+																</div>
+																<div class="col mega-box ">
+																	<div class="link-section">
+																		<div class="menu-title">
+																			<h5>Accessories</h5>
+																		</div>
+																		<div class="menu-content">
+																			<ul>
+																				<li><a href="/portfolio/order-success">Order Success</a></li>
+																				<li><a href="/portfolio/order-success-2">Order Success 2</a></li>
+																				<li><a href="/portfolio/email-template">Email Template</a></li>
+																				<li><a href="/portfolio/email-template-2">Email Template 2</a></li>
+																			</ul>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
 												</li>
 												<li class=" "><a href="#special"> Products</a>
 													<!-- <ul class="nav-submenu">
@@ -302,7 +330,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 														<li class=""><a href="/product-details/vertical_tab"> Vertical Tab</a></li>
 													</ul> -->
 												</li>
-												<li><a href="#special"> features</a>
+
+												<li><a href="#social-media"> Social</a>
 													<!-- <div class="mega-menu-container  ">
 														<div class="container">
 															<div class="row">
@@ -392,56 +421,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 														</div>
 													</div> -->
 												</li>
-												<li class=" "><a href="#special"> Pages</a>
-													<!-- <ul class="nav-submenu">
-														<li class="sub-menu "><a>vendor<span class="new-tag">new</span><i class="fa fa-angle-right pl-2"></i></a>
-															<ul class="nav-sub-childmenu active">
-																<li><a class="sub-menu-title" href="/page/vendor/vendor-dashboard">Vendor Dashboard</a></li>
-																<li><a class="sub-menu-title" href="/page/vendor/vendor-profile">Vendor Profile</a></li>
-																<li><a class="sub-menu-title" href="/page/vendor/become-vendor">Become Vendor</a></li>
-															</ul>
-														</li>
-														<li class="sub-menu "><a>Account<i class="fa fa-angle-right pl-2"></i></a>
-															<ul class="nav-sub-childmenu active">
-																<li><a class="sub-menu-title" href="/page/account/wishlist">Wishlist</a></li>
-																<li><a class="sub-menu-title" href="/page/account/cart">cart</a></li>
-																<li><a class="sub-menu-title" href="/page/account/dashboard">dashboard</a></li>
-																<li><a class="sub-menu-title" href="/page/account/login">login</a></li>
-																<li><a class="sub-menu-title" href="/page/account/login-auth">login-auth</a></li>
-																<li><a class="sub-menu-title" href="/page/account/register">register</a></li>
-																<li><a class="sub-menu-title" href="/page/account/contact">contact</a></li>
-																<li><a class="sub-menu-title" href="/page/account/forget-pwd">forgot-password</a></li>
-																<li><a class="sub-menu-title" href="/page/account/profile">profile</a></li>
-																<li><a class="sub-menu-title" href="/page/account/checkout">checkout</a></li>
-															</ul>
-														</li>
-														<li class=""><a href="/page/about-us"> about-us</a></li>
-														<li class=""><a href="/page/search"> search</a></li>
-														<li class=""><a href="/page/typography"> typography<span class="new-tag">new</span></a></li>
-														<li class=""><a href="/page/review"> review</a></li>
-														<li class=""><a href="/page/order-success"> order-success</a></li>
-														<li class="sub-menu "><a>compare<i class="fa fa-angle-right pl-2"></i></a>
-															<ul class="nav-sub-childmenu active">
-																<li><a class="sub-menu-title" href="/page/compare">compare</a></li>
-																<li><a class="sub-menu-title" href="/page/compare-2">compare-2<span class="new-tag">new</span></a></li>
-															</ul>
-														</li>
-														<li class=""><a href="/page/collection"> collection</a></li>
-														<li class=""><a href="/page/lookbook"> lookbook</a></li>
-														<li class=""><a href="/page/site-map"> site-map</a></li>
-														<li class=""><a href="/page/404"> 404</a></li>
-														<li class=""><a href="/page/coming-soon"> coming-soon</a></li>
-														<li class=""><a href="/page/faq"> faq</a></li>
-													</ul> -->
-												</li>
-												<li class=" "><a href="#special"> Blogs</a>
-													<!-- <ul class="nav-submenu">
-														<li class=""><a href="/blogs/blog_left_sidebar"> blog left sidebar</a></li>
-														<li class=""><a href="/blogs/blog_right_sidebar"> blog right sidebar</a></li>
-														<li class=""><a href="/blogs/no_sidebar"> no sidebar</a></li>
-														<li class=""><a href="/blogs/blog_detail"> blog detail</a></li>
-													</ul> -->
-												</li>
+
+
 											</ul>
 										</div>
 									</div>
@@ -875,7 +856,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	</section>
 	</div>
 
-	<section class="instagram ratio_square">
+	<section id="social-media" class="instagram ratio_square">
 		<div class="p-0 container-fluid">
 			<div class="row">
 				<div class="pt-0 col">
@@ -1342,17 +1323,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			<div class="container">
 				<section class="small-section border-section border-top-0">
 					<div class="row">
-						<div class="col-lg-6">
+						<div class="col-lg-8">
 							<div class="subscribe">
 								<div>
-									<h4>KNOW IT ALL FIRST!</h4>
+									<h4>CONTACT US!</h4>
 									<p>Never Miss Anything From Multikart By Signing Up To Our Newsletter. </p>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6">
-							<form class="form-inline subscribe-form">
-								<div class="mx-sm-3 form-group"><input id="exampleFormControlInput1" placeholder="Enter your email" type="text" class="form-control form-control"></div><button type="submit" class="btn btn-solid btn btn-secondary">subscribe</button>
+						<div class="col-lg-4">
+							<form>
+								<input placeholder="Enter your email" type="text" class="form-control form-control mb-3">
+								<input placeholder="Subject" type="text" class="form-control form-control mb-3">
+								<textarea placeholder="Messages" rows="3" class="form-control form-control mb-3"></textarea>
+								<button type="submit" class="btn btn-solid btn btn-secondary">Contact Us</button>
 							</form>
 						</div>
 					</div>
@@ -1379,18 +1363,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</ul>
 							</div>
 						</div>
-						<div>
-							<form>
-								<div>
 
-									<h4 class="mb-3">Contact Us</h4>
-									<input placeholder="Enter your email" type="text" class="form-control form-control mb-3">
-									<input placeholder="Subject" type="text" class="form-control form-control mb-3">
-									<textarea placeholder="Messages" rows="4" class="form-control form-control mb-3"></textarea>
-									<button type="submit" class="btn btn-solid btn btn-secondary">Contact Us</button>
-								</div>
-							</form>
-						</div>
 					</div>
 					<div class="offset-xl-1 col">
 						<div class="sub-title">
@@ -1410,15 +1383,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="col">
 						<div class="sub-title">
 							<div class="footer-title">
-								<h4>Socials</h4>
+								<h4>Navigation</h4>
 							</div>
 							<div class="footer-contant" style="display: block;">
 								<ul>
-									<li><a href="#">shipping &amp; return</a></li>
-									<li><a href="#">secure shopping</a></li>
-									<li><a href="#">gallary</a></li>
-									<li><a href="#">affiliates</a></li>
-									<li><a href="#">contacts</a></li>
+									<li><a href="#special">Category</a></li>
+									<li><a href="#special">Product</a></li>
+									<li><a href="#social-media">Social</a></li>
 								</ul>
 							</div>
 						</div>
