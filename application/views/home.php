@@ -8,6 +8,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<meta charSet="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 	<title>Welcome to CodeIgniter</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/index.css" crossorigin="anonymous"> -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -216,17 +217,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 																<div class="col mega-box ">
 																	<div class="link-section">
 																		<div class="menu-title">
-																			<h5>Clothing</h5>
+																			<h5>Kategori 1</h5>
 																		</div>
 																		<div class="menu-content">
 																			<ul>
-																				<li><a href="/portfolio/grid-2">Portfolio Grid 2</a></li>
-																				<li><a href="/portfolio/grid-3">Portfolio Grid 3</a></li>
-																				<li><a href="/portfolio/grid-4">Portfolio Grid 4</a></li>
-																				<li><a href="/portfolio/masonry-grid-2">masonry Grid 2</a></li>
-																				<li><a href="/portfolio/masonry-grid-3">masonry Grid 3</a></li>
-																				<li><a href="/portfolio/masonry-grid-4">masonry Grid 4</a></li>
-																				<li><a href="/portfolio/masonry-full-width">masonry Full Width</a></li>
+																				<li><a href="#">Sub Kategori 1</a></li>
+																				<li><a href="#">Sub Kategori 2</a></li>
+																				<li><a href="#">Sub Kategori 3</a></li>
 																			</ul>
 																		</div>
 																	</div>
@@ -234,16 +231,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 																<div class="col mega-box ">
 																	<div class="link-section">
 																		<div class="menu-title">
-																			<h5>Bags</h5>
+																			<h5>Kategori 2</h5>
 																		</div>
 																		<div class="menu-content">
 																			<ul>
-																				<li><a href="/layouts/Nursery">Cart Modal Popup</a></li>
-																				<li><a href="/layouts/Vegetables">Qty Counter</a></li>
-																				<li><a href="/layouts/Bags">Cart Top</a></li>
-																				<li><a href="/layouts/Shoes">Cart Bottom</a></li>
-																				<li><a href="/layouts/Watch">Cart Left</a></li>
-																				<li><a href="/layouts/Tools">Cart Right</a></li>
+																				<li><a href="#">Sub Kategori 1</a></li>
+																				<li><a href="#">Sub Kategori 2</a></li>
+																				<li><a href="#">Sub Kategori 3</a></li>
 																			</ul>
 																		</div>
 																	</div>
@@ -251,46 +245,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 																<div class="col mega-box ">
 																	<div class="link-section">
 																		<div class="menu-title">
-																			<h5>Footwear</h5>
+																			<h5>Kategori 3</h5>
 																		</div>
 																		<div class="menu-content">
 																			<ul>
-																				<li><a href="/portfolio/title">Title</a></li>
-																				<li><a href="/portfolio/collection-banner">Collection Banner</a></li>
-																				<li><a href="/portfolio/home-slider">Home Slider</a></li>
-																				<li><a href="/portfolio/category">Category</a></li>
-																				<li><a href="/portfolio/service">Service</a></li>
-																			</ul>
-																		</div>
-																	</div>
-																</div>
-																<div class="col mega-box ">
-																	<div class="link-section">
-																		<div class="menu-title">
-																			<h5>Watches</h5>
-																		</div>
-																		<div class="menu-content">
-																			<ul>
-																				<li><a href="/portfolio/product-box">Product Box</a></li>
-																				<li><a href="/portfolio/product-slider">Product Slider</a></li>
-																				<li><a href="/portfolio/no-slider">No Slider</a></li>
-																				<li><a href="/portfolio/multi-slider">Multi Slider</a></li>
-																				<li><a href="/portfolio/tab">Tab</a></li>
-																			</ul>
-																		</div>
-																	</div>
-																</div>
-																<div class="col mega-box ">
-																	<div class="link-section">
-																		<div class="menu-title">
-																			<h5>Accessories</h5>
-																		</div>
-																		<div class="menu-content">
-																			<ul>
-																				<li><a href="/portfolio/order-success">Order Success</a></li>
-																				<li><a href="/portfolio/order-success-2">Order Success 2</a></li>
-																				<li><a href="/portfolio/email-template">Email Template</a></li>
-																				<li><a href="/portfolio/email-template-2">Email Template 2</a></li>
+
+																				<li><a href="#">Sub Kategori 1</a></li>
+																				<li><a href="#">Sub Kategori 2</a></li>
+																				<li><a href="#">Sub Kategori 3</a></li>
 																			</ul>
 																		</div>
 																	</div>
@@ -615,9 +577,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 											<div class="product-box product-wrap">
 												<div class="img-wrapper">
 													<div class="lable-block"></div>
-													<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+													<div class="front"><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></a></div>
 													<div class="back"><img src="assets/images/pro3/6.jpg" alt="" class="img-fluid m-auto media"></div>
-													<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+													<div class="cart-info cart-wrap d-flex flex-column">
+														<button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+														<!-- <a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+														<a title="Quick View" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-search" aria-hidden="true"></i></a>
+														<!-- <a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a> -->
+													</div>
 													<ul class="product-thumb-list">
 														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
 														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/6.jpg" alt="wishlist" class="media"></a></li>
@@ -642,9 +609,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 											<div class="product-box product-wrap">
 												<div class="img-wrapper">
 													<div class="lable-block"></div>
-													<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+													<div class="front"><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></a></div>
 													<div class="back"><img src="assets/images/pro3/4.jpg" alt="" class="img-fluid m-auto media"></div>
-													<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+													<div class="cart-info cart-wrap d-flex flex-column">
+														<button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+														<!-- <a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+														<a title="Quick View" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-search" aria-hidden="true"></i></a>
+														<!-- <a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a> -->
+													</div>
 													<ul class="product-thumb-list">
 														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
 														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/4.jpg" alt="wishlist" class="media"></a></li>
@@ -670,9 +642,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 											<div class="product-box product-wrap">
 												<div class="img-wrapper">
 													<div class="lable-block"></div>
-													<div class="front"><img src="assets/images/pro3/1.jpg" alt="" class="img-fluid media"></div>
+													<div class="front"><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></a></div>
 													<div class="back"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid m-auto media"></div>
-													<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+													<div class="cart-info cart-wrap d-flex flex-column">
+														<button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+														<!-- <a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+														<a title="Quick View" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-search" aria-hidden="true"></i></a>
+														<!-- <a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a> -->
+													</div>
 													<ul class="product-thumb-list">
 														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/1.jpg" alt="wishlist" class="media"></a></li>
 														<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
@@ -709,9 +686,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										<div class="product-box product-wrap">
 											<div class="img-wrapper">
 												<div class="lable-block"></div>
-												<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+												<div class="front"><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></a></div>
 												<div class="back"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid m-auto media"></div>
-												<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+												<div class="cart-info cart-wrap d-flex flex-column">
+													<button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+													<!-- <a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+													<a title="Quick View" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-search" aria-hidden="true"></i></a>
+													<!-- <a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a> -->
+												</div>
 												<ul class="product-thumb-list">
 													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
 													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
@@ -737,9 +719,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										<div class="product-box product-wrap">
 											<div class="img-wrapper">
 												<div class="lable-block"></div>
-												<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+												<div class="front"><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></a></div>
 												<div class="back"><img src="assets/images/pro3/16.jpg" alt="" class="img-fluid m-auto media"></div>
-												<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+												<div class="cart-info cart-wrap d-flex flex-column">
+													<button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+													<!-- <a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+													<a title="Quick View" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-search" aria-hidden="true"></i></a>
+													<!-- <a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a> -->
+												</div>
 												<ul class="product-thumb-list">
 													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
 													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/16.jpg" alt="wishlist" class="media"></a></li>
@@ -769,9 +756,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										<div class="product-box product-wrap">
 											<div class="img-wrapper">
 												<div class="lable-block"></div>
-												<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+												<div class="front"><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></a></div>
 												<div class="back"><img src="assets/images/pro3/7.jpg" alt="" class="img-fluid m-auto media"></div>
-												<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+												<div class="cart-info cart-wrap d-flex flex-column">
+													<button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+													<!-- <a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+													<a title="Quick View" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-search" aria-hidden="true"></i></a>
+													<!-- <a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a> -->
+												</div>
 												<ul class="product-thumb-list">
 													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
 													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/7.jpg" alt="wishlist" class="media"></a></li>
@@ -794,9 +786,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										<div class="product-box product-wrap">
 											<div class="img-wrapper">
 												<div class="lable-block"></div>
-												<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+												<div class="front"><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></a></div>
 												<div class="back"><img src="assets/images/pro3/10.jpg" alt="" class="img-fluid m-auto media"></div>
-												<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+												<div class="cart-info cart-wrap d-flex flex-column">
+													<button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+													<!-- <a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+													<a title="Quick View" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-search" aria-hidden="true"></i></a>
+													<!-- <a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a> -->
+												</div>
 												<ul class="product-thumb-list">
 													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
 													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/10.jpg" alt="wishlist" class="media"></a></li>
@@ -819,25 +816,29 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										<div class="product-box product-wrap">
 											<div class="img-wrapper">
 												<div class="lable-block"></div>
-												<div class="front"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></div>
+												<div class="front"><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="assets/images/pro3/2.jpg" alt="" class="img-fluid media"></a></div>
 												<div class="back"><img src="assets/images/pro3/12.jpg" alt="" class="img-fluid m-auto media"></div>
-												<div class="cart-info cart-wrap"><button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a><a title="Quick View"><i class="fa fa-search" aria-hidden="true"></i></a><a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a></div>
+												<div class="cart-info cart-wrap d-flex flex-column">
+													<button title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+													<!-- <a title="Add to Wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+													<a title="Quick View" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-search" aria-hidden="true"></i></a>
+													<!-- <a title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a> -->
+												</div>
 												<ul class="product-thumb-list">
 													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/2.jpg" alt="wishlist" class="media"></a></li>
-													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/12.jpg" alt="wishlist" class="media"></a></li>
-													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/22.jpg" alt="wishlist" class="media"></a></li>
+													<li class="grid_thumb_img "><a title="Add to Wishlist"><img src="assets/images/pro3/10.jpg" alt="wishlist" class="media"></a></li>
 												</ul>
-											</div>
-											<div class="product-detail undefined">
-												<div>
-													<div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-													<h6>crop top</h6>
-													<h4>$72.60<del><span class="money">$121.00</span></del></h4>
-													<ul class="color-variant">
-														<li class="olive" title="olive"></li>
-														<li class="gray" title="gray"></li>
-														<li class="red" title="red"></li>
-													</ul>
+												<div class="product-detail undefined">
+													<div>
+														<div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+														<h6>crop top</h6>
+														<h4>$72.60<del><span class="money">$121.00</span></del></h4>
+														<ul class="color-variant">
+															<li class="olive" title="olive"></li>
+															<li class="gray" title="gray"></li>
+															<li class="red" title="red"></li>
+														</ul>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -845,13 +846,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</div>
 							</div>
 						</div>
-					</div>
 
+					</div>
 				</div>
+				<div class="react-tabs__tab-panel" role="tabpanel" id="react-tabs-3" aria-labelledby="react-tabs-2"></div>
+				<div class="react-tabs__tab-panel" role="tabpanel" id="react-tabs-5" aria-labelledby="react-tabs-4"></div>
 			</div>
-			<div class="react-tabs__tab-panel" role="tabpanel" id="react-tabs-3" aria-labelledby="react-tabs-2"></div>
-			<div class="react-tabs__tab-panel" role="tabpanel" id="react-tabs-5" aria-labelledby="react-tabs-4"></div>
-	</div>
 	</div>
 	</section>
 	</div>
@@ -1450,10 +1450,51 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			]
 		}
 	</script> -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				<div class="modal-body px-3">
+					<div class="row">
+						<div class="col-12 col-md-6">
+							<img class="w-100" src="assets/images/pro3/2.jpg" />
+						</div>
+						<div class="col-12 col-md-6">
+							<div class="product-right">
+								<h2> trim dress </h2>
+								<h3>$145.00</h3>
+								<ul class="color-variant">
+									<ul class="color-variant">
+										<ul class="color-variant">
+											<li class="yellow" title="yellow"></li>
+											<li class="white" title="white"></li>
+											<li class="pink" title="pink"></li>
+										</ul>
+									</ul>
+								</ul>
+								<div class="border-product">
+									<h6 class="product-title">product details</h6>
+									<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+								</div>
+								<div class="product-description border-product">
+									<h6 class="product-title">quantity</h6>
+									<div class="qty-box d-flex align-items-baseline justify-content-between">
+										<div class="input-group"><span class="input-group-prepend"><button type="button" class="btn quantity-left-minus" data-type="minus" data-field=""><i class="fa fa-angle-left"></i></button></span><input type="text" name="quantity" class="form-control input-number" value="1"><span class="input-group-prepend"><button type="button" class="btn quantity-right-plus" data-type="plus" data-field=""><i class="fa fa-angle-right"></i></button></span></div>
+
+										<div class="product-buttons"><button class="btn btn-solid">add to cart</button></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 	<script nomodule="" src="https://multikart-react.vercel.app/_next/static/chunks/polyfills-e38e4d741cb5c5eaf613.js"></script>
-
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
 	<script>
 		// 	function openTab(evt, tabName) {
